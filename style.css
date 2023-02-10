@@ -19,13 +19,19 @@ body{
     margin-top: 20px;
 }
 .info {
-    font-size: 10px;
     text-align: center;
 }
 .info h1 {
-    border-bottom: solid 1px rgb(252, 171, 171);
+    font-size: 25px;
+    border-bottom: solid 1px #009871;
     padding-bottom: 10px;
     display: block;
+}
+.info h1:hover {
+    cursor: pointer;
+    color: #009871;
+    border-bottom: solid 1px rgb(0, 0, 0);
+
 }
 .info p {
     font-size: 17px;
@@ -40,7 +46,8 @@ body{
 }
 .social{
     margin: 20px 0 0 0;
-    background-color: silver;
+    background-color: #cbebe3;
+    border: solid 1px #b9b9b9;
 }
 .social img{
     margin: 10px;
